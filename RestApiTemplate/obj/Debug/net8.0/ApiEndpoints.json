@@ -1,0 +1,131 @@
+[
+  {
+    "ContainingType": "RestApiTemplate.Controllers.FakultetController",
+    "Method": "InsertNewFakultet",
+    "RelativePath": "api/Fakultet/addNewFaculty",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fakultet",
+        "Type": "RestApiTemplate.Models.DTO.AddNewFakultet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddNewFaculty"
+  },
+  {
+    "ContainingType": "RestApiTemplate.Controllers.FakultetController",
+    "Method": "DeleteFakultet",
+    "RelativePath": "api/Fakultet/deleteFaculty",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteFaculty"
+  },
+  {
+    "ContainingType": "RestApiTemplate.Controllers.FakultetController",
+    "Method": "GetAll",
+    "RelativePath": "api/Fakultet/getAllFaculties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllFaculties"
+  },
+  {
+    "ContainingType": "RestApiTemplate.Controllers.FakultetController",
+    "Method": "GetFacultyById",
+    "RelativePath": "api/Fakultet/getFacultyById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetFacultyById"
+  },
+  {
+    "ContainingType": "RestApiTemplate.Controllers.FakultetController",
+    "Method": "UpdateFakultet",
+    "RelativePath": "api/Fakultet/updateFaculty/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "fakultet",
+        "Type": "RestApiTemplate.Models.DTO.UpdateFakultet",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateFaculty"
+  },
+  {
+    "ContainingType": "RestApiTemplate.Controllers.MestoController",
+    "Method": "InsertNewMesto",
+    "RelativePath": "api/Mesto/addNewPlace",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mesto",
+        "Type": "RestApiTemplate.Models.Domain.Mesto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddNewPlace"
+  },
+  {
+    "ContainingType": "RestApiTemplate.Controllers.MestoController",
+    "Method": "GetAllMesta",
+    "RelativePath": "api/Mesto/getAllPlaces",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllPlaces"
+  },
+  {
+    "ContainingType": "RestApiTemplate.Controllers.MestoController",
+    "Method": "GetAllMesta",
+    "RelativePath": "api/Mesto/getPlaceByName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetPlaceByName"
+  }
+]

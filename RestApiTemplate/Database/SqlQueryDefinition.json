@@ -1,0 +1,26 @@
+{
+  "SelectFakultetById": {
+    "CommandText": "select * from Fakultet where FakultetId = @fakultetId",
+    "CommandType": 1,
+    "CommandTimeout": 30,
+    "Parameters": [
+      {
+        "Name": "@fakultetId"
+      }
+    ]
+
+
+  },
+  "SelectMestotByName": {
+    "CommandText": "select * from Mesto where Naziv = @nazivMesta",
+    "CommandType": 2,
+    "CommandTimeout": 30,
+    "Parameters": [
+      {
+        "Name": "@nazivMesta"
+      }
+    ]
+
+
+  }
+}
